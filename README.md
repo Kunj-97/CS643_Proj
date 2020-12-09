@@ -29,6 +29,8 @@ spark-submit wine_testing.py
 
 ### For Docker : 
 
+Download spark 3.0 tar and untar it in "spark" folder in the current directory.
+
 sudo docker build -t kunj97/cs-643 .
 
  sudo docker run -v  /home/hadoop/ValidationDataset.csv:/home/hadoop/ValidationDataset.csv  kunj97/cs-643  /home/hadoop/ValidationDataset.csv
