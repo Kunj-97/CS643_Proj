@@ -38,5 +38,5 @@ docker pull kunj97/cs-643:latest
 ##### Run Docker Container with file path to ValidationDataset.csv as parameters ( sudo docker run -v file_path:file_path kunj97/cs-643 file_path)
 sudo docker run -v  /home/hadoop/ValidationDataset.csv:/home/hadoop/ValidationDataset.csv  kunj97/cs-643  /home/hadoop/ValidationDataset.csv
 
-Docker Id : https://hub.docker.com/repository/docker/kunj97/cs-643
+Docker Image : https://hub.docker.com/r/kunj97/cs-643/tags?page=1&ordering=last_updated
 
