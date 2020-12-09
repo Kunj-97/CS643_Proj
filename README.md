@@ -11,6 +11,7 @@ spark submit wine_modeling.py #saves the model in the s3 bucket
 
 
  in current folder use command (to download model that was uploaded by wine_modelling.py from s3 bucket if not present) :
+ 
 aws s3 cp s3://cloud-proj2/ . --recursive
   
  to run wine_testing.py add it with file paths for model followed by file path of your ValidationDataSet.csv
