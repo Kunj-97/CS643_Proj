@@ -4,7 +4,7 @@
 To run on EMR cluster without docker : 
 
 
-Create a s3 bucket named cloud-proj2  and upload TrainingDataset.csv , wine_testing.py and wine_modelling.py in it 
+Create a s3 bucket named cloud-proj2  and upload ModellingDataset.csv, TrainingDataset.csv , wine_testing.py and wine_modelling.py in it 
 
 spark submit wine_modeling.py
 
