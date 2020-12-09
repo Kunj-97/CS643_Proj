@@ -4,7 +4,7 @@
 To run on EMR cluster without docker : 
 
 
-Create a s3 bucket named cloud-proj2  and upload TrainingDataset.csv in it 
+Create a s3 bucket named cloud-proj2  and upload TrainingDataset.csv , wine_testing.py and wine_modelling.py in it 
 
 spark submit wine_modeling.py
 
@@ -34,7 +34,7 @@ sudo docker build -t kunj97/cs-643 .
 
 For Docker : 
 docker pull kunj97/cs-643:latest
-
+##### Run Docker Container with file path to ValidationDataset.csv as parameters ( sudo docker run -v file_path:file_path kunj97/cs-643 file_path)
 sudo docker run -v  /home/hadoop/ValidationDataset.csv:/home/hadoop/ValidationDataset.csv  kunj97/cs-643  /home/hadoop/ValidationDataset.csv
 
 Docker Id : https://hub.docker.com/repository/docker/kunj97/cs-643
