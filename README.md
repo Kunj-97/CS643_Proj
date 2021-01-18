@@ -1,4 +1,5 @@
-# CS643_Proj
+# Wine Testing
+###( ML based Project with additional functionality of Docker)
 
 
 To run on EMR cluster without docker : 
